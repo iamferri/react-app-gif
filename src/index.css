@@ -9,6 +9,9 @@ input {
   font-size: 1.2rem;
   width: 100%;
 }
+.contenedorPrin {
+  margin-top: 20px;
+}
 .card-grid {
   display: flex;
   flex-direction: row;
@@ -30,5 +33,12 @@ input {
   .card img {
     max-width: 150px;
     max-height: 100px;
+  }
+
+  body {
+    padding: 10px;
+  }
+  contenedoPrin {
+    margin-top: 15px;
   }
 }

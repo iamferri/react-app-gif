@@ -12,8 +12,8 @@ export const GifExpertApp = () => {
   <>
     <h1 className=' animate__animated animate__swing'>GifExpertApp</h1>
     <AddCategory categorias={setCategorias} cat={categorias}/>
-    <ol>
-      {
+    <div className='contenedorPrin'>
+    {
         categorias.map(cat => (
           <GifGrid 
             key={cat}
@@ -21,7 +21,7 @@ export const GifExpertApp = () => {
           />
         ))
       }
-    </ol>
+    </div>
   </>
   )
 };
